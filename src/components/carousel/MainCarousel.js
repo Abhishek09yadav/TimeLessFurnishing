@@ -32,7 +32,7 @@ const MainCarousel = () => {
       ),
       url: showingUrl(storeCustomizationSetting?.slider?.first_link),
       image:
-        // showingImage(storeCustomizationSetting?.slider?.first_img) ||
+        showingImage(storeCustomizationSetting?.slider?.first_img) ||
         "/slider/slider-1.jpg",
     },
     {
@@ -48,7 +48,7 @@ const MainCarousel = () => {
       ),
       url: showingUrl(storeCustomizationSetting?.slider?.second_link),
       image:
-        // showingImage(storeCustomizationSetting?.slider?.second_img) ||
+        showingImage(storeCustomizationSetting?.slider?.second_img) ||
         "/slider/slider-2.jpg",
     },
     {
@@ -64,7 +64,7 @@ const MainCarousel = () => {
       ),
       url: showingUrl(storeCustomizationSetting?.slider?.third_link),
       image:
-        // showingImage(storeCustomizationSetting?.slider?.third_img) ||
+        showingImage(storeCustomizationSetting?.slider?.third_img) ||
         "/slider/slider-3.jpg",
     },
     {
@@ -80,7 +80,7 @@ const MainCarousel = () => {
       ),
       url: showingUrl(storeCustomizationSetting?.slider?.four_link),
       image:
-        // showingImage(storeCustomizationSetting?.slider?.four_img) ||
+      showingImage(storeCustomizationSetting?.slider?.four_img) ||
         "/slider/slider-1.jpg",
     },
     {
@@ -96,7 +96,7 @@ const MainCarousel = () => {
       ),
       url: showingUrl(storeCustomizationSetting?.slider?.five_link),
       image:
-        // showingImage(storeCustomizationSetting?.slider?.five_img) ||
+    showingImage(storeCustomizationSetting?.slider?.five_img) ||
         "/slider/slider-2.jpg",
     },
   ];
