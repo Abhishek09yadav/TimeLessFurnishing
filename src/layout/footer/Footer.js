@@ -285,7 +285,7 @@ const Footer = () => {
                     sizes="100vw"
                     className="w-full h-auto"
                     src={
-                      storeCustomizationSetting?.footer?.block4_logo ||
+                  
                       "/logo/logo-color.svg"
                     }
                     alt="logo"
