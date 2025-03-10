@@ -491,8 +491,7 @@ export const storeCustomization = {
       de: "Jetzt einkaufen",
     },
     second_link: "/search?category=fish-meat",
-    third_img:
-      "https://res.cloudinary.com/ahossain/image/upload/v1697688492/settings/slider-3_iw4nnf.jpg",
+    third_img: "/slider/slider-3.jpg",
     third_title: {
       en: "Quality Freshness Guaranteed!",
       de: "Qualitätsfrische garantiert!",
