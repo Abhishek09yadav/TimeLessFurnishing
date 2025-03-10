@@ -116,24 +116,24 @@ const sliderData = [
 const ctaCardData = [
   {
     id: 1,
-    title: "Taste of",
-    subTitle: "Fresh & Natural",
+    title: "Living Room",
+    subTitle: "Comfortable Sofas & More",
     image: "/cta/cta-bg-1.jpg",
-    url: "/search?category=fresh-vegetable",
+    url: "/search?category=living-room-furniture",
   },
   {
     id: 2,
-    title: "Taste of",
-    subTitle: "Fish & Meat",
+    title: "Bedroom Essentials",
+    subTitle: "Stylish Beds & Mattresses",
     image: "/cta/cta-bg-2.jpg",
-    url: "/search?Category=fish--meat",
+    url: "/search?category=bedroom-furniture",
   },
   {
     id: 3,
-    title: "Taste of",
-    subTitle: "Bread & Bakery",
+    title: "Dining Delights",
+    subTitle: "Elegant Tables & Chairs",
     image: "/cta/cta-bg-3.jpg",
-    url: "/search?Category=biscuits--cakes",
+    url: "/search?category=dining-furniture",
   },
 ];
 

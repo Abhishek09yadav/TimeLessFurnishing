@@ -5,6 +5,7 @@ import { IoAdd, IoBagAddSharp, IoRemove } from "react-icons/io5";
 import { useCart } from "react-use-cart";
 
 //internal import
+import { useRouter } from "next/router";
 
 import Price from "@components/common/Price";
 import Stock from "@components/common/Stock";
@@ -19,7 +20,7 @@ import { handleLogEvent } from "src/lib/analytics";
 
 const ProductCard = ({ product, attributes }) => {
   const [modalOpen, setModalOpen] = useState(false);
-
+const router = useRouter();
   const { items, addItem, updateItemQuantity, inCart } = useCart();
   const { handleIncreaseQuantity } = useAddToCart();
   const { globalSetting } = useGetSetting();
@@ -71,12 +72,15 @@ const ProductCard = ({ product, attributes }) => {
           <Discount product={product} />
         </div>
         <div
+          // onClick={() => {
+          //   handleModalOpen(!modalOpen, product._id);
+          //   handleLogEvent(
+          //     "product",
+          //     `opened ${showingTranslateValue(product?.title)} product modal`
+          //   );
+          // }}
           onClick={() => {
-            handleModalOpen(!modalOpen, product._id);
-            handleLogEvent(
-              "product",
-              `opened ${showingTranslateValue(product?.title)} product modal`
-            );
+            router.push(`/product/${product.slug}`);
           }}
           className="relative flex justify-center cursor-pointer pt-2 w-full h-44"
         >
