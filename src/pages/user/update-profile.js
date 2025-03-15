@@ -29,7 +29,7 @@ const UpdateProfile = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    return notifySuccess("This Feature is disabled for demo!");
+    // return notifySuccess("This Feature is disabled for demo!");
 
     setLoading(true);
 
